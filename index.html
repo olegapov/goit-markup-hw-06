@@ -480,7 +480,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <div class="container footer-soc-container">
+        <div class="footer-soc-container">
           <p class="footer-social">Social media</p>
           <ul class="footer-soc-list list">
             <li class="footer-soc-item">
@@ -532,6 +532,18 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="subscribe-container">
+          <label for="footer-email" class="footer-email"
+            >
+            <span class="subscribe footer-social">Subscribe</span>
+            <input type="footer-input"
+            class="footer-emal-input"
+            name="footer-email"
+            id="footer-email"
+            placeholder="E-mail" />
+          </label>
+          <button type="submit">subscribe</button>
         </div>
       </div>
     </footer>
@@ -605,7 +617,26 @@
                 placeholder="Text input"></textarea>
             </label>
           </div>
-          <button class="modal-btn" type="submit">Send</button>
+          <div class="modal-privacy">
+            <input
+              type="checkbox"
+              id="privacy"
+              name="privacy"
+              value="true"
+              class="modal-check" />
+            <label for="privacy" class="check-text">
+              <span>
+                <svg class="check-icon" width="22" height="22">
+                  <use href="./images/icons.svg#"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="modal-btn" type="submit">
+            <span class="send">Send</span>
+          </button>
         </form>
       </div>
     </div>
