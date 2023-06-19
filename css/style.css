@@ -876,7 +876,25 @@ color: var(--navi-blue);
 .input-label span {
   display: block;
   margin-bottom: 4px;
+}
 
+.subscribe-input {
+  margin-top: 16px;
+}
+
+.footer-emal-input {
+  font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 2.0;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+background-color: var(--navi-blue);
+border-radius: 4px;
+width: 264px;
+height: 40px;
+border-color: white;
 }
 
 .check-text {
@@ -887,4 +905,11 @@ color: var(--navi-blue);
   letter-spacing: 0.04em;
   color: var(--light-slate);
 }
+.placeholder {
+  color: #FFFFFF;
+}
 
+.btn-subscribe {
+  padding-right: 50px;
+  position: relative; 
+}
