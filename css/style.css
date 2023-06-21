@@ -880,6 +880,12 @@ color: var(--navi-blue);
   border-color: var(--iris);
 }
 
+.modal-check::cheked + .span-check {
+background-color: var(--ocean);
+border: none;
+fill: var(--cloud);
+}
+
 .modal-btn {
   display: block;
   min-width: 169px;
