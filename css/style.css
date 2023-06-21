@@ -208,12 +208,12 @@ color: var(--ocean);
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
 }
 
-.hero {
-/* background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg); */
-}
-.hero-container {
+/* .hero {
+background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+} */
+/* .hero-container {
  
-}
+} */
 
 .hero-title {
   font-weight: 700;
@@ -500,6 +500,7 @@ gap: 24px;
 .footer-text {
   font-weight: 400;
   font-size: 16px;
+  width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
@@ -655,7 +656,7 @@ height: 40px;
 
 .portfolio-link {
   display: block;
-  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
@@ -902,6 +903,19 @@ color: var(--navi-blue);
   display: block;
   margin-bottom: 4px;
 }
+.subscribe {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-style: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.form-subscribe {
+display: flex;
+gap: 24px;
+}
 
 .subscribe-input {
   margin-top: 16px;
@@ -911,15 +925,22 @@ color: var(--navi-blue);
   font-style: normal;
 font-weight: 400;
 font-size: 12px;
-line-height: 2.0;
+line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-background-color: var(--navi-blue);
+background-color: transparent;
 border-radius: 4px;
+color: #ffffff;
 width: 264px;
 height: 40px;
-border-color: white;
+border: 1px solid #ffffff;
+padding-left: 16px;
+filter:  drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.footer-emal-input::placeholder {
+  color: #ffffff;
 }
 
 .check-text {
@@ -935,10 +956,26 @@ border-color: white;
 }
 
 .btn-subscribe {
-  padding-right: 50px;
-  position: relative; 
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  min-width: 165px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-style: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: var(--iris);
+  border: none;
+  border-radius: 4px;
 }
 
-.privacy {
-
+.subscribe-icon {
+  margin-left: 16px;
 }
+/* .privacy {
+
+} */
