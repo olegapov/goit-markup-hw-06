@@ -842,8 +842,7 @@ color: var(--navi-blue);
  }
  
  .modal-input:focus + .modal-icon {
-   background-color: var(--iris);
-   fill: #4D5AE5; 
+  fill: #4D5AE5; 
  }
 
 .modal-icon {
