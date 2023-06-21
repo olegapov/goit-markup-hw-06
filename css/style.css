@@ -815,10 +815,12 @@ color: var(--navi-blue);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   outline: transparent;
-  padding-left: 19px;
+  padding-left: 42px;
 }
 
+
 .input-wrap {
+  display: block;
   position: relative;
 }
 
@@ -826,12 +828,21 @@ color: var(--navi-blue);
   margin-bottom: 10px;
 }
 
+.modal-input:focus {
+  border-color: var(--iris);
+ }
+ .modal-input:focus + .modal-icon {
+   background-color: var(--iris);
+ }
+
 .modal-icon {
   position: absolute;
   left: 17.5px;
   top: 50%;
   transform: translateY(-50%);
 }
+
+
 
 .modal-area {
   display: block; 
@@ -845,6 +856,10 @@ color: var(--navi-blue);
   color: var(--navi-blue-modal);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+}
+.modal-area:focus {
+  outline: none;
+  border-color: var(--iris);
 }
 
 .modal-btn {
@@ -875,6 +890,7 @@ color: var(--navi-blue);
 }
 
 .input-label {
+  display: block;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
