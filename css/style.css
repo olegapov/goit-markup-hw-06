@@ -880,7 +880,7 @@ color: var(--navi-blue);
   border-color: var(--iris);
 }
 
-.modal-check::cheked + .span-check {
+.modal-check:checked + .check-text span {
 background-color: var(--ocean);
 border: none;
 fill: var(--cloud);
