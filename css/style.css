@@ -886,6 +886,10 @@ border: none;
 fill: var(--cloud);
 }
 
+.modal-check:focus + .check-text span {
+  border-color: var(--iris);
+  }
+
 .modal-btn {
   display: block;
   min-width: 169px;
@@ -919,6 +923,7 @@ fill: var(--cloud);
   align-items: center;
   justify-content: center;
   fill: transparent;
+  cursor: pointer;
 }
 
 .send {
